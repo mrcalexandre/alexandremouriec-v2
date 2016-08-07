@@ -1,4 +1,4 @@
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
-RewriteRule ^index.html$ http://www.alexandremouriec.com/ [R=301,L]
+RewriteRule ^index\.html$ http://www.alexandremouriec.com [QSA,L,R=301]
