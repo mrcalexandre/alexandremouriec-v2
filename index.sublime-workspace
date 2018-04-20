@@ -1,0 +1,329 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pro",
+				"projects"
+			],
+			[
+				"time",
+				"timeStep"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"backgourn",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Volumes/ALEXANDRE/systeme/TP/TP7/DevineJoueur.sh",
+		"/Volumes/ALEXANDRE/systeme/TP/TP7/boum.sh",
+		"/Volumes/ALEXANDRE/systeme/TP/TP7/ChaudDedans",
+		"/Volumes/ALEXANDRE/systeme/TP/TP7/DevineMachine.sh",
+		"/Volumes/ALEXANDRE/systeme/TP/TP7/telegramme",
+		"/Volumes/ALEXANDRE/systeme/TP/TP7/genbash",
+		"/Volumes/ALEXANDRE/systeme/TP/TP7/genC",
+		"/Volumes/ALEXANDRE/systeme/TP/TP7/taille.sh",
+		"/Volumes/ALEXANDRE/systeme/TP/TP7/mois.sh",
+		"/Volumes/ALEXANDRE/systeme/TP/TP7/ppj.sh",
+		"/Volumes/ALEXANDRE/systeme/TP/TP7/progtest.sh",
+		"/Volumes/ALEXANDRE/BDD/TD/TD5/td5.sql",
+		"/Volumes/ALEXANDRE/BDD/TP/TP2/TP2.d",
+		"/Volumes/ALEXANDRE/BDD/TP/TP4/TP4.sql",
+		"/Volumes/ALEXANDRE/BDD/TP/TP3/TP3.sql",
+		"/Volumes/ALEXANDRE/BDD/TP/TP2/TP2_suite.d",
+		"/Users/Alexandre/Projets/siteWebP2/Site/index.html",
+		"/Volumes/ALEXANDRE/FitIUT/presentationgenerale.html",
+		"/Users/Alexandre/Projets/FitIUT/presentationgenerale.html",
+		"/Users/Alexandre/Projets/FitIUT/index.html",
+		"/Volumes/ALEXANDRE/Cours/BDD/TD/TD5/td5.sql",
+		"/Volumes/ALEXANDRE/Cours/BDD/TP/TP3/TP3.sql",
+		"/Users/Alexandre/Downloads/jobboard-free-lite/index.html",
+		"/Users/Alexandre/Downloads/jobboard-free-lite/browse-jobs.html",
+		"/Users/Alexandre/Downloads/jonaki-job-board-template/index.html",
+		"/Users/Alexandre/Downloads/emoji.css-master/dist/emoji.min.css",
+		"/Users/Alexandre/Downloads/jobboard-free-lite/assets/css/colors/blue.css",
+		"/Users/Alexandre/Downloads/feedly-640af864-a6b0-4f5e-bcd9-6aed730626ce-2017-09-22.opml",
+		"/Users/Alexandre/Downloads/sites_vins 2/vins_touraine.html",
+		"/Users/Alexandre/Desktop/calcularithmétique.py",
+		"/Users/Alexandre/Dropbox/Ecole/Cours/ENIB/ENIB - S1P/Algorithmique/TriangleQuelconque.py",
+		"/Users/Alexandre/Dropbox/Ecole/Cours/ENIB/ENIB - S1P/Algorithmique/Notion5CoursAppels.py",
+		"/Users/Alexandre/Dropbox/Ecole/Cours/ENIB/S2A/MDD/Objectif3.py",
+		"/Users/Alexandre/mrcalexandre.github.io/index.html",
+		"/Users/Alexandre/mrcalexandre.github.io/about.html",
+		"/Users/Alexandre/Desktop/detecteurultrasons.py",
+		"/Users/Alexandre/Desktop/hat.py",
+		"/Users/Alexandre/mrcalexandre.github.io/blog/index.html",
+		"/Users/Alexandre/Desktop/index.html",
+		"/Users/Alexandre/Matching Donations/index.html",
+		"/Users/Alexandre/Desktop/links.txt",
+		"/Users/Alexandre/Downloads/links.txt",
+		"/Users/Alexandre/order_conf.txt",
+		"/Users/Alexandre/account.txt",
+		"/Users/Alexandre/order_conf.html",
+		"/Users/Alexandre/account.html",
+		"/Users/Alexandre/overall_header.html",
+		"/Users/Alexandre/functions.php",
+		"/Users/Alexandre/functions_user.php",
+		"/Users/Alexandre/phpbbauthentification.php",
+		"/Users/Alexandre/Dropbox/Développement/Udemy/comparateurs.py",
+		"/Users/Alexandre/posting_buttons.html",
+		"/Users/Alexandre/Center for Biological Diversity/index.html",
+		"/Users/Alexandre/Dropbox/Développement/Udemy/Mini Projet 01 - Devine un nombre/devine_un_nombre_02.py",
+		"/Users/Alexandre/Dropbox/Développement/Udemy/comparaison_identique.py",
+		"/Users/Alexandre/Dropbox/Développement/Udemy/parentheses.py",
+		"/Users/Alexandre/Dropbox/Développement/Udemy/not.py",
+		"/Users/Alexandre/Dropbox/Développement/Udemy/and.py",
+		"/Users/Alexandre/Dropbox/Développement/Udemy/operateurs_mathematiques_avances.py",
+		"/Users/Alexandre/Dropbox/Développement/Udemy/Mini Projet 01 - Devine un nombre/devine_un_nombre_01.py",
+		"/Users/Alexandre/Dropbox/Développement/Udemy/mon_premier_script.py",
+		"/Users/Alexandre/Dropbox/Développement/Udemy/booleans.py",
+		"/Users/Alexandre/Dropbox/Argos VR Systems/Argos VR Systems Présentation/boilerplate.html",
+		"/Users/Alexandre/Desktop/wp-blog-header.php",
+		"/Users/Alexandre/Downloads/Gary-Vaynerchuk-Motivation_v0.0.0.1/myhtml.html",
+		"/Users/Alexandre/Desktop/mycss.css",
+		"/Users/Alexandre/Desktop/jquery-3.2.0.min.js",
+		"/Users/Alexandre/Desktop/myjavascript.js",
+		"/Users/Alexandre/Desktop/GaryVee.html",
+		"/Users/Alexandre/Desktop/posting_buttons.html",
+		"/Users/Alexandre/Downloads/optimized_contents/css/style_2.css",
+		"/Users/Alexandre/Dropbox/Argos VR Systems/Argos VR Systems Présentation/themes/style/swiss.css",
+		"/Users/Alexandre/Downloads/optimized_contents/css/style.css",
+		"/Users/Alexandre/Downloads/overall_header.html",
+		"/Users/Alexandre/Downloads/functions.php",
+		"/Users/Alexandre/Downloads/product.tpl",
+		"/Users/Alexandre/Downloads/index.htm",
+		"/Users/Alexandre/Downloads/deck.js-latest/themes/style/swiss.css",
+		"/Users/Alexandre/Downloads/deck.js-latest/boilerplate.html",
+		"/Users/Alexandre/Downloads/deck.js-latest/themes/style/web-2.0.css",
+		"/Users/Alexandre/README.md",
+		"/Users/Alexandre/Dropbox/Argos VR Systems/common.css",
+		"/Users/Alexandre/Downloads/db670776240_db_1and1_com.sql",
+		"/Users/Alexandre/Center for Biological Diversity/css/bootstrap.min.css",
+		"/Users/Alexandre/Center for Biological Diversity/css/bootstrap.css",
+		"/Users/Alexandre/Center for Biological Diversity/js/bootstrap.min.js",
+		"/Users/Alexandre/Center for Biological Diversity/css/animate.css",
+		"/Users/Alexandre/Center for Biological Diversity/js/bootstrap.js",
+		"/Users/Alexandre/Center for Biological Diversity/LICENSE",
+		"/Users/Alexandre/Downloads/animate.css",
+		"/Users/Alexandre/Center for Biological Diversity/README.md",
+		"/Users/Alexandre/Downloads/wp-config.php",
+		"/Users/Alexandre/Downloads/colours.css",
+		"/Users/Alexandre/Downloads/common.css",
+		"/Users/Alexandre/Center for Biological Diversity/JE BOSSE SUR CETTE VERSION/index.html",
+		"/Users/Alexandre/Downloads/stylesheet.css",
+		"/Users/Alexandre/Center for Biological Diversity/Test seconde version/css/business-frontpage.css",
+		"/Users/Alexandre/Center for Biological Diversity/Test seconde version/index.html",
+		"/Users/Alexandre/mrcalexandre.github.io/projects.html",
+		"/Users/Alexandre/mrcalexandre.github.io/now.html",
+		"/Users/Alexandre/Matching Donations/css/bootstrap.css",
+		"/Users/Alexandre/Desktop/untitled.html",
+		"/Users/Alexandre/Downloads/startbootstrap-round-about-gh-pages/index.html",
+		"/Users/Alexandre/ACLUDonorMatches/index.html",
+		"/Users/Alexandre/ACLUDonorMatches/css/bootstrap.css",
+		"/Users/Alexandre/ACLUDonorMatches/css/round-about.css",
+		"/Users/Alexandre/ACLUDonorMatches/css/bootstrap.min.css",
+		"/Users/Alexandre/Downloads/index.php",
+		"/Users/Alexandre/Downloads/projet_MDD 2/anime.py",
+		"/Users/Alexandre/Downloads/projet_MDD 2/Background.py",
+		"/Users/Alexandre/mrcalexandre.github.io/css/style.css",
+		"/Users/Alexandre/Dropbox/MDD Projet/The_Flying_Ghost/main.py",
+		"/Users/Alexandre/Dropbox/MDD Projet/The_Flying_Ghost/Background.py",
+		"/Users/Alexandre/Documents/ENIBundle16/games/deadJump/stage.py",
+		"/Users/Alexandre/Documents/ENIBundle16/games/deadJump/termios.py",
+		"/Users/Alexandre/Dropbox/MDD Projet/The_Flying_Ghost/test.py",
+		"/Users/Alexandre/mrcalexandre.github.io/contact.html",
+		"/Users/Alexandre/Downloads/249f16255b06c5d203541cde86428b41.ico/manifest.json",
+		"/Users/Alexandre/Downloads/ENIBundle16/games/deadJump/scenery.txt",
+		"/Users/Alexandre/Downloads/ENIBundle16/games/deadJump/scenery.py",
+		"/Users/Alexandre/Downloads/zeldaALTTG/termios.py",
+		"/Users/Alexandre/Dropbox/MDD Projet/animation/Background.py",
+		"/Users/Alexandre/Dropbox/MDD Projet/animation/main.py",
+		"/Users/Alexandre/Dropbox/MDD Projet/The Flying Ghost/test.py",
+		"/Users/Alexandre/Dropbox/MDD Projet/The Flying Ghost/main.py",
+		"/Users/Alexandre/Dropbox/MDD Projet/The Flying Ghost/Background.py",
+		"/Users/Alexandre/Dropbox/MDD Projet/main.py",
+		"/Users/Alexandre/Dropbox/MDD Projet/The Flying Ghost/background.py"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
