@@ -814,3 +814,8 @@ img a {
 	color: #28bbf8;
 
 }
+
+
+#publications .btn a {
+	color: transparent;
+}
