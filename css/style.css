@@ -1,5 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+
+@font-face {
+	font-family: 'themify';
+	src: url("../fonts/themify/themify.eot?-fvbane");
+	src: url("../fonts/themify/themify.eot?#iefix-fvbane") format("embedded-opentype"), url("../fonts/themify/themify.woff?-fvbane") format("woff"), url("../fonts/themify/themify.ttf?-fvbane") format("truetype"), url("../fonts/themify/themify.svg?-fvbane#themify") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
 body {
 	padding-top: 70px;
 	color: #222;
@@ -269,15 +279,6 @@ footer {
 	padding-bottom: 85px;
 }
 
-footer p {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 200;
-	font-size: 0.7em;
-	text-transform: uppercase;
-}
-
-
-
 
 .cd-top {
 	display: inline-block;
@@ -413,6 +414,7 @@ a.btn-social,
 	margin: 8px 4px;
 	text-align: center;
 	text-decoration: none;
+	text-decoration-line: none;
 	transition: background-color .3s;
 	webkit-transition: background-color .3s;
 	width: 54px;
@@ -623,13 +625,7 @@ p {
 }
 
 
-*/ @font-face {
-	font-family: 'themify';
-	src: url("../fonts/themify/themify.eot?-fvbane");
-	src: url("../fonts/themify/themify.eot?#iefix-fvbane") format("embedded-opentype"), url("../fonts/themify/themify.woff?-fvbane") format("woff"), url("../fonts/themify/themify.ttf?-fvbane") format("truetype"), url("../fonts/themify/themify.svg?-fvbane#themify") format("svg");
-	font-weight: normal;
-	font-style: normal;
-}
+
 
 body {
 	font-family: 'Lato', arial, sans-serif;
