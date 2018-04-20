@@ -210,31 +210,6 @@ a:focus {
 	padding-bottom: 25px;
 }
 
-
-
-/* About */
-
-.big-letter p:first-child:first-letter {
-	float: left;
-	color: #222;
-	font-size: 8em;
-	line-height: 0.8em;
-	text-transform: uppercase;
-	padding-top: 0px;
-	padding-right: 0.1em;
-	padding-left: –0.03em;
-}
-
-/* Firefox Fix */
-
-@-moz-document url-prefix() {
-	.big-letter p:first-child:first-letter {
-		padding-top: 0.08em;
-	}
-}
-
-
-
 /* Work */
 
 .work p {
@@ -413,8 +388,8 @@ a.btn-social,
 	line-height: 54px;
 	margin: 8px 4px;
 	text-align: center;
-	text-decoration: none;
-	text-decoration-line: none;
+	text-decoration: none!important;
+
 	transition: background-color .3s;
 	webkit-transition: background-color .3s;
 	width: 54px;
@@ -574,8 +549,8 @@ a.btn-social,
 
 .frandroid {
 	width: 100%;
-	margin-top: 15px;
-	margin-bottom: -5px;
+	margin-top: 10px;
+	margin-bottom: -25px;
 }
 
 p {
@@ -624,7 +599,9 @@ p {
 	margin-top: -18px;
 }
 
-
+.seemorefrandroid {
+	margin-top: 20px;
+}
 
 
 body {
@@ -664,9 +641,10 @@ a:hover,
 a:focus,
 a:active {
 	outline: none;
-	text-decoration: none;
+	text-decoration: none!important;
 	color: #ffffff;
 	border-bottom: 2px solid #28bbf8;
+
 }
 
 .intro a:hover,
@@ -739,7 +717,7 @@ p {
 	padding-left: 30px;
 	padding-right: 30px;
 	margin-right: 10px;
-	text-decoration: none;
+	text-decoration: none!important;
 }
 
 .btn:hover,
@@ -764,6 +742,7 @@ img a {
 .btn-primary:focus {
 	background: #28bbf8;
 	color: black;
+	text-decoration-color: none;
 }
 
 .fh5co-feature-2 .fh5co-feature-item {
