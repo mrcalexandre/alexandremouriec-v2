@@ -675,7 +675,7 @@ a:active {
 	outline: none;
 	text-decoration: none;
 	color: #ffffff;
-	border-bottom: 2px solid #28bbf8;
+	border-bottom: 2px solid #28bbf8!important;
 }
 
 .intro a:hover,
@@ -812,9 +812,4 @@ img a {
 #publications a:hover {
 	color: #28bbf8!important;
 
-}
-
-
-#publications .btn a {
-	color: transparent;
 }
