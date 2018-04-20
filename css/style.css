@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
-
 body {
 	padding-top: 70px;
 	color: #222;
@@ -583,8 +582,8 @@ p {
 
 #monday-logo {
 	width: 90%;
-	margin-top: 50px;
-	margin-bottom: 40px;
+	margin-top: 40px;
+	margin-bottom: 45px;
 }
 
 .nav a {
@@ -608,10 +607,19 @@ p {
 	list-style-type: square;
 }
 
-.voeu,
-.enib {
+.voeu {
 	width: 90%;
 	margin-top: 15px;
+}
+
+
+.enib {
+	width: 90%;
+	margin-top: 30px;
+}
+
+.seemoreenib {
+	margin-top: -18px;
 }
 
 
