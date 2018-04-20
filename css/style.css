@@ -807,11 +807,10 @@ img a {
 
 .publink a:hover {
 	color: white;
-
 }
 
 #publications a:hover {
-	color: #28bbf8;
+	color: #28bbf8!important;
 
 }
 
