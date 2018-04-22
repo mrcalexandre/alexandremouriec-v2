@@ -18,7 +18,10 @@ body {
 	line-height: 1.8 !important;
 }
 
-html {}
+html {
+
+	overflow-x: hidden;
+}
 
 h1,
 h2,
