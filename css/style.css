@@ -303,7 +303,6 @@ a.btn-social,
 .btn-social {
 	border-radius: 50%;
 	color: #ffffff !important;
-
 	text-decoration: none!important;
 	display: inline-block;
 	height: 54px;
@@ -316,19 +315,6 @@ a.btn-social,
 	border-bottom: 2px solid transparent;
 }
 
-.btn-producthunt {
-	border-radius: 50%;
-	display: inline-block;
-	height: 54px;
-	line-height: 54px;
-	margin: 8px 4px;
-	text-align: center;
-	text-decoration: none;
-	transition: background-color .3s;
-	webkit-transition: background-color .3s;
-	width: 54px;
-
-}
 
 .btn-social i,
 .btn-producthunt {
@@ -345,9 +331,7 @@ a.btn-social,
 }
 
 .btn-social:hover,
-.btn-social:focus,
-.btn-producthunt:hover,
-.btn-producthunt:focus {
+.btn-social:focus {
 	color: #fff;
 	outline: none;
 	text-decoration-line: none!important;
