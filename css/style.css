@@ -18,7 +18,7 @@ body {
 	line-height: 1.8 !important;
 }
 
-
+html {}
 
 h1,
 h2,
@@ -248,11 +248,12 @@ h4 {
 	border: 0px solid black;
 	display: block;
 	height: 400px;
-	width: 100%;
+	width: 370px;
 	position: relative;
 	transition: border 0.2s ease-in-out 0s;
 	margin-top: 10px;
 	position: relative;
+	margin-right: 10px;
 }
 
 
@@ -613,7 +614,7 @@ h3 {
 	background-size: cover;
 	height: 100vh;
 	width: 100%;
-	background-position: center;
+
 }
 
 .social > a {
@@ -635,8 +636,4 @@ h3 {
 .row {
 	margin-left: 0px;
 	margin-right: 0px;
-}
-
-.thumbnail {
-	margin-left: -20px;
 }
