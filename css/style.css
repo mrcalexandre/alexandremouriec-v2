@@ -631,3 +631,12 @@ h3 {
 	color: white;
 	background-color: #555;
 }
+
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.thumbnail {
+	margin-left: -20px;
+}
