@@ -18,10 +18,7 @@ body {
 	line-height: 1.8 !important;
 }
 
-html {
-	overflow-x: hidden;
 
-}
 
 h1,
 h2,
@@ -251,7 +248,7 @@ h4 {
 	border: 0px solid black;
 	display: block;
 	height: 400px;
-	width: 390px;
+	width: 100%;
 	position: relative;
 	transition: border 0.2s ease-in-out 0s;
 	margin-top: 10px;
