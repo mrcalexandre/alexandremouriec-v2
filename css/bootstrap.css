@@ -2007,7 +2007,7 @@ pre code {
 	}
 }
 
-.container {
+.container-fluid {
 	padding-right: 15px;
 	padding-left: 15px;
 	margin-right: auto;
@@ -5093,18 +5093,18 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 .container > .navbar-header,
-.container > .navbar-header,
+.container-fluid > .navbar-header,
 .container > .navbar-collapse,
-.container > .navbar-collapse {
+.container-fluid > .navbar-collapse {
 	margin-right: -15px;
 	margin-left: -15px;
 }
 
 @media (min-width: 768px) {
 	.container > .navbar-header,
-	.container > .navbar-header,
+	.container-fluid > .navbar-header,
 	.container > .navbar-collapse,
-	.container > .navbar-collapse {
+	.container-fluid > .navbar-collapse {
 		margin-right: 0;
 		margin-left: 0;
 	}
@@ -5166,7 +5166,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 @media (min-width: 768px) {
 	.navbar > .container .navbar-brand,
-	.navbar > .container .navbar-brand {
+	.navbar > .container-fluid .navbar-brand {
 		margin-left: -15px;
 	}
 }
@@ -5968,7 +5968,7 @@ a.badge:focus {
 }
 
 .container .jumbotron,
-.container .jumbotron {
+.container-fluid .jumbotron {
 	padding-right: 15px;
 	padding-left: 15px;
 	border-radius: 6px;
@@ -5984,7 +5984,7 @@ a.badge:focus {
 		padding-bottom: 48px;
 	}
 	.container .jumbotron,
-	.container .jumbotron {
+	.container-fluid .jumbotron {
 		padding-right: 60px;
 		padding-left: 60px;
 	}
@@ -7710,8 +7710,8 @@ button.close {
 .dl-horizontal dd:after,
 .container:before,
 .container:after,
-.container:before,
-.container:after,
+.container-fluid:before,
+.container-fluid:after,
 .row:before,
 .row:after,
 .form-horizontal .form-group:before,
@@ -7743,7 +7743,7 @@ button.close {
 .clearfix:after,
 .dl-horizontal dd:after,
 .container:after,
-.container:after,
+.container-fluid:after,
 .row:after,
 .form-horizontal .form-group:after,
 .btn-toolbar:after,
