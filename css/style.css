@@ -26,8 +26,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 200;
 	color: #222;
@@ -76,12 +75,7 @@ a:focus {
 	padding: 0 15px;
 }
 
-.navbar-brand img {
-	max-height: 50px;
-}
-
-.navbar > .container .navbar-brand,
-.navbar > .container-fluid .navbar-brand {
+.navbar > .container .navbar-brand {
 	margin-left: 0px;
 }
 
@@ -99,13 +93,6 @@ a:focus {
 .navbar-default {
 	background-color: #fff;
 	border-color: #fff;
-}
-
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:focus,
-.navbar-default .navbar-nav > .active > a:hover {
-	background-color: #fff;
-	color: #222;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -146,8 +133,7 @@ a:focus {
 }
 
 .navbar-default .navbar-toggle,
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
+.navbar-default .navbar-collapse {
 	border-color: #fff;
 }
 
@@ -193,8 +179,7 @@ a:focus {
 
 .navbar-toggle.collapsed span.bar1,
 .navbar-toggle.collapsed span.bar2,
-.navbar-toggle.collapsed span.bar3,
-.navbar-toggle.collapsed span.bar4 {
+.navbar-toggle.collapsed span.bar3 {
 	-ms-transform: none;
 	-webkit-transform: none;
 	transform: none;
@@ -212,41 +197,7 @@ a:focus {
 
 /* Work */
 
-.work p {
-	line-height: 1.7em;
-}
-
-
-
-.work h4 {
-	padding-top: 20px;
-	font-weight: bold;
-	letter-spacing: 1px;
-}
-
-
-
 /* Brand */
-
-.logo-list img {
-	width: 100%;
-	height: auto;
-	opacity: 0.8;
-}
-
-.logo-list li {
-	padding-bottom: 1%;
-}
-
-.logo-list li a:hover,
-.logo-list li a:focus {
-	opacity: 0.6;
-	transition: opacity 0.2s ease;
-	display: block;
-}
-
-}
-
 
 /* Footer */
 
@@ -273,30 +224,6 @@ footer {
 	-webkit-transition: opacity .3s 0s, visibility 0s .3s;
 	-moz-transition: opacity .3s 0s, visibility 0s .3s;
 	transition: opacity .3s 0s, visibility 0s .3s;
-}
-
-.cd-top.cd-is-visible,
-.cd-top.cd-fade-out,
-.no-touch .cd-top:hover {
-	-webkit-transition: opacity .3s 0s, visibility 0s 0s;
-	-moz-transition: opacity .3s 0s, visibility 0s 0s;
-	transition: opacity .3s 0s, visibility 0s 0s;
-}
-
-.cd-top.cd-is-visible {
-	/* the button becomes visible */
-	visibility: visible;
-	opacity: 1;
-}
-
-.cd-top.cd-fade-out {
-	/* if the user keeps scrolling down, the button is out of focus and becomes less visible */
-	opacity: .5;
-}
-
-.no-touch .cd-top:hover {
-	background-color: transparent;
-	opacity: 1;
 }
 
 @media only screen and (min-width: 768px) {
@@ -409,7 +336,6 @@ a.btn-social,
 
 }
 
-.btn-social .fa,
 .btn-social i,
 .btn-producthunt {
 	backface-visibility: hidden;
@@ -430,35 +356,6 @@ a.btn-social,
 	color: #fff;
 	outline: none;
 	text-decoration: none;
-}
-
-
-
-.btn-social.btn-xs,
-.btn-producthunt.btn-xs {
-	font-size: 9px;
-	height: 24px;
-	line-height: 13px;
-	margin: 6px 2px;
-	width: 24px;
-}
-
-.btn-social.btn-sm,
-.btn-producthunt.btn-sm {
-	font-size: 13px;
-	height: 36px;
-	line-height: 18px;
-	margin: 6px 2px;
-	width: 36px;
-}
-
-.btn-social.btn-lg,
-.btn-producthunt.btn-lg {
-	font-size: 22px;
-	height: 72px;
-	line-height: 40px;
-	margin: 10px 6px;
-	width: 72px;
 }
 
 
@@ -513,11 +410,6 @@ a.btn-social,
 
 }
 
-.producthunt-logo {
-	font-weight: 900;
-	font-size: 25px;
-}
-
 .website {
 	font-weight: bolder;
 
@@ -526,10 +418,6 @@ a.btn-social,
 .company-logo {
 	margin-top: 35px;
 	margin-bottom: 10px;
-}
-
-.yourcompany-logo {
-	margin-top: 55px;
 }
 
 .argosvr {
@@ -572,12 +460,6 @@ p {
 .pelikant {
 	width: 98px;
 	height: 90px;
-}
-
-.see-more {
-	position: fixed;
-	margin-bottom: 20px;
-	;
 }
 
 #work li {
@@ -660,8 +542,7 @@ a:active {
 /* Heading */
 
 h2,
-h3,
-.h4 {
+h3 {
 	margin: 0 0 20px 0;
 	padding: 0;
 }
@@ -676,32 +557,8 @@ h3 {
 	line-height: 32px;
 }
 
-.h4 {
-	font-size: 16px;
-	line-height: 28px;
-}
-
 p {
 	margin: 0 0 20px 0;
-}
-
-
-#fh5co-feature {
-	padding: 5em 0;
-}
-
-@media screen and (max-width: 768px) {
-	#fh5co-feature {
-		padding: 3em 0 2em 0;
-	}
-}
-
-
-
-@media screen and (max-width: 768px) {
-	.fh5co-spacer-md {
-		height: 30px;
-	}
 }
 
 .btn {
@@ -722,8 +579,7 @@ p {
 
 .btn:hover,
 .btn:focus,
-.btn:active,
-img a {
+.btn:active {
 	box-shadow: none;
 	outline: none !important;
 	border-color: transparent;
@@ -770,13 +626,6 @@ img a {
 	-ms-border-radius: 50%;
 	-o-border-radius: 50%;
 	border-radius: 50%;
-}
-
-
-
-
-.publink a:hover {
-	color: white;
 }
 
 #publications a:hover {
