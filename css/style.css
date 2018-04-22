@@ -282,10 +282,7 @@ h4 {
 	margin: 0 0;
 }
 
-img {
-	display: block;
-	margin: 0 auto;
-}
+
 
 section {
 	margin-top: 10px;
@@ -634,4 +631,5 @@ h3 {
 	height: 100vh;
 	width: 100%;
 	background-position: center;
+
 }
