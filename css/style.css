@@ -255,6 +255,7 @@ h4 {
 	position: relative;
 	transition: border 0.2s ease-in-out 0s;
 	margin-top: 10px;
+	position: relative;
 }
 
 
@@ -282,7 +283,10 @@ h4 {
 	margin: 0 0;
 }
 
-
+img {
+	display: block;
+	margin: 0 auto;
+}
 
 section {
 	margin-top: 10px;
@@ -299,7 +303,8 @@ a.btn-social,
 .btn-social {
 	border-radius: 50%;
 	color: #ffffff !important;
-	text-decoration-line: none!important;
+
+	text-decoration: none!important;
 	display: inline-block;
 	height: 54px;
 	line-height: 54px;
@@ -308,6 +313,7 @@ a.btn-social,
 	transition: background-color .3s;
 	webkit-transition: background-color .3s;
 	width: 54px;
+	border-bottom: 2px solid transparent;
 }
 
 .btn-producthunt {
@@ -335,6 +341,7 @@ a.btn-social,
 	webkit-backface-visibility: hidden;
 	webkit-transform: scale(1);
 	webkit-transition: all .25s;
+
 }
 
 .btn-social:hover,
@@ -343,6 +350,7 @@ a.btn-social,
 .btn-producthunt:focus {
 	color: #fff;
 	outline: none;
+	text-decoration-line: none!important;
 	text-decoration: none!important;
 }
 
@@ -525,12 +533,6 @@ nav a:hover {
 	border-bottom: 2px solid #28bbf8;
 }
 
-.intro a:hover,
-.intro a:focus,
-.intro a:active {
-	color: black;
-}
-
 .btn-social {
 	text-decoration-line: none;
 }
@@ -631,5 +633,20 @@ h3 {
 	height: 100vh;
 	width: 100%;
 	background-position: center;
+}
 
+.social > a {
+	text-decoration: none;
+}
+
+.btn-angellist,
+.btn-medium {
+	color: white;
+	background-color: black;
+}
+
+.btn-angellist:hover,
+.btn-medium:hover {
+	color: white;
+	background-color: #555;
 }
