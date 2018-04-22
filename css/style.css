@@ -40,14 +40,10 @@ p {
 section {
 	padding-top: 68px;
 	padding-bottom: 20px;
-	margin-left: 5px;
-	margin-right: 5px;
+
 
 }
 
-.cover {
-	width: 100%;
-}
 
 .no-gutter > [class*='col-'] {
 	padding-right: 0;
@@ -193,7 +189,7 @@ a:focus {
 
 .intro {
 	font-size: 22px;
-	padding-top: 15px;
+	padding-top: 60px;
 	padding-bottom: 25px;
 }
 
@@ -558,9 +554,6 @@ h3 {
 	line-height: 32px;
 }
 
-p {
-	margin: 0 0 20px 0;
-}
 
 .btn {
 	border-bottom: none !important;
