@@ -1,15 +1,6 @@
-/*@import url(https://fonts.googleapis.com/css?family=Playfair+Display);*/
-
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-/*@font-face {
-	font-family: 'themify';
-	src: url("../fonts/themify/themify.eot?-fvbane");
-	src: url("../fonts/themify/themify.eot?#iefix-fvbane") format("embedded-opentype"), url("../fonts/themify/themify.woff?-fvbane") format("woff"), url("../fonts/themify/themify.ttf?-fvbane") format("truetype"), url("../fonts/themify/themify.svg?-fvbane#themify") format("svg");
-	font-weight: normal;
-	font-style: normal;
-}*/
 
 body {
 	padding-top: 70px;
@@ -19,7 +10,6 @@ body {
 	line-height: 1.8 !important;
 	overflow-x: hidden;
 }
-
 
 h1,
 h2,
@@ -465,7 +455,7 @@ p {
 
 
 body {
-	font-family: 'Lato', arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
 	font-weight: 300;
