@@ -389,6 +389,11 @@ p {
   margin-bottom: 60px;
 }
 
+#apitic-logo {
+  width: 80%;
+  margin-top: 10px;
+}
+
 #cmb-logo {
   width: 80%;
   margin-top: 40px;
@@ -463,7 +468,6 @@ a:focus,
 a:active {
   outline: none;
   text-decoration: none !important;
-  color: #28bbf8;
 }
 
 nav a {
@@ -560,10 +564,6 @@ h3 {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
-}
-
-#publications a:hover {
-  color: #28bbf8 !important;
 }
 
 .cover {
