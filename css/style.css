@@ -228,6 +228,9 @@ h4 {
   position: relative;
   margin-right: 10px;
 }
+a{
+  color: black!important;
+}
 
 .hovereffect {
   background: white;
